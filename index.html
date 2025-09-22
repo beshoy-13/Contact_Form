@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/fontawesome.min.css">
+    <link rel="stylesheet" href="style/solid.min.css">
+    <title>Contact form</title>
+</head>
+<body>
+    <div class="split left" id="hero">
+        <div class="bcontainer">
+            <p>QUESTIONS?</p>
+            <P>COMMENTS?</P>
+            <div class="special">
+                <P>I'D LOVE TO HEAR FROM YOU.</P>
+            </div>
+        </div>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/beshoy-fomail-29636533a/" target="_blank">
+                <img src="images/linkedin (3).png" alt="LinkedIn logo">
+            </a>
+            
+            <a href="https://github.com/beshoy-13" target="_blank">
+                <img src="images/github (2).png" alt="GitHub logo">
+            </a>
+        </div>
+    </div>
+    <div class="split right">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="a7f819b7-6c60-4e87-97f9-881b6516222d">
+                <h1>Contact Form</h1>
+                <input type="text" name="name" placeholder="Enter your Name" required>
+                <input type="email" name="email" placeholder="Enter a valid email address" required>
+                <textarea name="message" placeholder="Enter your message" required></textarea>
+                <button type="submit">SUBMIT</button>
+            </form>
+            <a class="return" href="#hero">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+    </div>
+</body>
+</html>
